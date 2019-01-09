@@ -1,0 +1,19 @@
+;
+; mfs.if,  MFS V1.0 Info file
+;
+; Copyright Marius Greuel 1996. All rights reserved.
+;
+
+[Include]
+colors.if
+default.if
+
+trainer.ifh
+glider.ifa
+tree1.ifw
+
+[Objects]
+Tree1, -2,0,-40
+Tree1,  4,0,-32
+Tree1, 10,0,-60
+Trainer, 0,0,-15

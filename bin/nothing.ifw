@@ -1,0 +1,6 @@
+[Wind]
+Speed = 0
+Direction = 0
+SpeedChangeFreq = 0
+DirectionChangeFreq = 0
+GustFreq = 0

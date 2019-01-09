@@ -1,0 +1,28 @@
+;
+; cube.if,  MFS V1.0 Info file - 3D sample
+;
+; Copyright Marius Greuel 1996. All rights reserved.
+;
+
+[Files]
+cube.if
+
+[Cube]
+Name = "Testobjekt: Würfel"
+Points = Cube.Points
+Polygons = Cube.Polygons
+
+[Cube.Points]
+LUH = -1, -1, -1
+RUH =  1, -1, -1
+LOH = -1,  1, -1
+ROH =  1,  1, -1
+LUV = -1, -1,  1
+RUV =  1, -1,  1
+LOV = -1,  1,  1
+ROV =  1,  1,  1
+
+[Cube.Polygons]
+Black, Red, Black, DarkRed, 	LOH, LOV, LUV, LUH
+Black, Green, Black, DarkGreen, LUH, LUV, RUV, RUH
+Black, Blue, Black, DarkBlue, 	LUV, LOV, ROV, RUV

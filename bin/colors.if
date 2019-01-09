@@ -1,0 +1,29 @@
+;
+; colors.if,  MFS V1.0 Info file
+;
+; Copyright Marius Greuel 1996. All rights reserved.
+;
+
+[Files]
+colors.if
+
+;Format: <color name> = <palette index>, <red>, <green>, <blue>
+[Colors]
+Black      =  0,  0,   0,   0
+Gray       =  8, 50,  50,  50
+DarkBlue   =  1, 30,  30,  63
+Blue       =  9, 40,  40,  63
+DarkGreen  =  2,  0,  30,   0
+Green      = 10,  0,  36,   0
+DarkMGreen =  3,  0,  40,   0
+MGreen     = 11,  0,  50,   0
+DarkRed    =  4, 43,   0,   0
+Red        = 12, 63,   0,   0
+DarkBrown  =  5, 43,  20,   0
+Brown      = 13, 53,  30,   0
+DarkYellow =  6, 53,  43,   0
+Yellow     = 14, 63,  63,   0
+DarkWhite  =  7, 40,  40,  40
+White      = 15, 63,  63,  63
+-          = 255, 0,   0,   0   ; -1 reserved for transparent color
+Shadow     = 254, 0,   0,   0   ; -2 reserved for translucent color
